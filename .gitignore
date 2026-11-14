@@ -179,3 +179,24 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Model checkpoints
+*.pt
+*.pth
+*.safetensors
+
+# Datasets
+CLEVR_v1.0/
+data/
+datasets/
+
+# Large prediction-level evaluation outputs
+mini_qwen_bias_attention_2k_full_eval_results.json
+mini_qwen_bias_attention_ablation_results.json
